@@ -9,7 +9,7 @@ import android.widget.SeekBar;
 
 public class UsbControllerActivity extends Activity {
 	private static final int VID =9025;// 0x1a86;//0x2341;
-	private static final int PID =67;// 0x7523;//0x0042;//I believe it is 0x0000 for the Arduino Megas
+	private static final int PID =67;// 0x7523;//0x0042 for the Arduino Megas
 	private static UsbController sUsbController;
 
 	@Override
